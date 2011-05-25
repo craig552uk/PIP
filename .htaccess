@@ -1,13 +1,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /PIP/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)$ index.php?_url=$1 [L]
+RewriteRule . index.php [L]
 </IfModule>
-<<<<<<< HEAD
-=======
 
 # Prevent file browsing
 Options -Indexes
->>>>>>> no-index
