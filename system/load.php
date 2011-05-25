@@ -4,7 +4,7 @@
  *
  * This class loads other classes and files
  *
- * @author Gilbert Pellegrom
+ * @author Craig Russell
  * @package PIP
  */
 class Load {
