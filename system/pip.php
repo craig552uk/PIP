@@ -58,4 +58,3 @@ function pip()
     die($obj->$action());
 }
 
-?>

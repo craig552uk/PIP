@@ -22,4 +22,3 @@ class Main extends Controller {
     
 }
 
-?>

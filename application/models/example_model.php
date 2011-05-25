@@ -23,4 +23,3 @@ class Example_model extends Model {
 
 }
 
-?>

@@ -32,4 +32,3 @@ define('BASE_URL', $config['base_url']);
 // Start PIP
 pip();
 
-?>

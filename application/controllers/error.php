@@ -29,4 +29,3 @@ class Error extends Controller {
     
 }
 
-?>

@@ -39,4 +39,3 @@ class Session_helper {
 
 }
 
-?>
