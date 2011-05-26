@@ -29,6 +29,9 @@ class View {
 	public function __construct($template)
 	{
 		$this->template = APP_DIR .'views/'. $template .'.php';
+		
+		// Default varaibles in view
+		$this->pageVars['title'] = '';
 	}
 
     /*
