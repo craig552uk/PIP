@@ -68,7 +68,7 @@ class Model {
      * @param boolean $val A boolean value
      * @return string
      */
-	public function to_bool($val)
+	public function toBool($val)
 	{
 	    return ($val) ? 'TRUE' : 'FALSE';
 	}
@@ -79,7 +79,7 @@ class Model {
      * @param int $val A timestamp value
      * @return string
      */
-	public function to_date($val)
+	public function toDate($val)
 	{
 	    return date('Y-m-d', $val);
 	}
@@ -90,7 +90,7 @@ class Model {
      * @param int $val A timestamp value
      * @return string
      */
-	public function to_time($val)
+	public function toTime($val)
 	{
 	    return date('H:i:s', $val);
 	}
@@ -101,7 +101,7 @@ class Model {
      * @param int $val A timestamp value
      * @return string
      */
-	public function to_datetime($val)
+	public function toDateTime($val)
 	{
 	    return date('Y-m-d H:i:s', $val);
 	}
